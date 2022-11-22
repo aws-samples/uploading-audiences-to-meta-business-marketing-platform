@@ -6,8 +6,7 @@
 
 This repo hosts AWS Python CDK stack for Meta Activation data pipeline.
 
-Use this application along with the guidance for Meta Activations on AWS portal
-["Guidance for Activating Audience Segments on Meta Business Marketing Platform"](https://builderspace.proto.sa.aws.dev/project/d7479028-06fc-4e7e-884b-5fc94fc2f0af?tabId=assets)
+Use this application along with Guidance for Activating Audience Segments on Meta Business Marketing Platform in [AWS Solutions Library](https://aws.amazon.com/solutions/advertising-marketing/)
 
 ## Name
 Meta Business Marketing Platform Activation AWS CDK stack (SO9074)
@@ -31,7 +30,7 @@ In the example lambda code provided, data stored in S3 is picked up and sent to 
 TBD
 
 ## Visuals
-[Reference Architecture]( https://amazon.awsapps.com/workdocs/index.html#/document/37245564916cbff6e317435a7f801e04b913511b27a9b6ac700e99bdcd6060c0)
+Refer Guidance for Activating Audience Segments on Meta Business Marketing Platform in [AWS Solutions Library](https://aws.amazon.com/solutions/advertising-marketing/)
 
 ## Installation
 ### CDK
@@ -133,7 +132,7 @@ This command deletes resources deploying through the solution. S3 buckets contai
 ### Manual implementation without CDK
 * Clone repo
 
-* Follow [guidance document](https://builderspace.proto.sa.aws.dev/project/d7479028-06fc-4e7e-884b-5fc94fc2f0af?tabId=assets) steps 
+* Follow steps in the Guidance for Activating Audience Segments on Meta Business Marketing Platform in [AWS Solutions Library](https://aws.amazon.com/solutions/advertising-marketing/)
     * Copy relevant code from assets directory to respective AWS service console IDE's (Glue, Lambda)
 
 ## Local Setup to test lambda code alone
