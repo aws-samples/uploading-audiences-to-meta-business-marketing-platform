@@ -1,0 +1,18 @@
+{
+  "kms_key_alias": "cleanroom-uploads",
+  "cdk_asset_bucket_name": "meta-act-cdk-asset-bucket",
+  "glue_source_bucket_exist_flag": "Y",
+  "glue_source_bucket_name": "cleanroom-query-output",
+  "glue_target_bucket_name": "meta-act-tgt-bucket",
+  "glue_source_table_name": "<query-id>",
+  "glue_target_table_name": "meta_upload_audience",
+  "glue_catalog_target_db_name": "data-collab",
+  "glue_catalog_target_table_name": "meta_upload_audience",
+  "lambda_script_dir": "meta_conversions",
+  "glue_job_script": "cleanroom-activation-meta-normalize-scriptonly.py",
+  "glue_job_name": "meta-normalize-conversions-data",
+  "lambda_script_name": "send_conversion_events",
+  "acknowledged-issue-numbers": [
+    21902
+  ]
+}
