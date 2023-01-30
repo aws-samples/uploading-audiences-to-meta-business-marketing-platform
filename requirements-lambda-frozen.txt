@@ -9,7 +9,7 @@ backoff==2.1.2
 beautifulsoup4==4.11.1
 boto3==1.24.66
 botocore==1.27.66
-certifi==2022.6.15
+certifi==2022.12.07
 charset-normalizer==2.0.12
 curlify==2.2.1
 decorator==5.1.1
