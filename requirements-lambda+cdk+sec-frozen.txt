@@ -56,7 +56,7 @@ progressbar2==4.0.0
 publication==0.0.3
 pyarrow==7.0.0
 pycountry==22.3.5
-Pygments==2.13.0
+Pygments==2.15.0
 PyMySQL==1.0.2
 pyparsing==3.0.9
 python-dateutil==2.8.2
